@@ -15,6 +15,9 @@
 		631D544422DEC56800CD5090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D544322DEC56800CD5090 /* main.m */; };
 		631D544E22DEC56900CD5090 /* CL_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D544D22DEC56900CD5090 /* CL_CategoryTests.m */; };
 		631D545922DEC56900CD5090 /* CL_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D545822DEC56900CD5090 /* CL_CategoryUITests.m */; };
+		631D546E22DEC69600CD5090 /* NSArray+Wgarray.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D546922DEC69600CD5090 /* NSArray+Wgarray.m */; };
+		631D546F22DEC69600CD5090 /* NSString+HUString.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D546A22DEC69600CD5090 /* NSString+HUString.m */; };
+		631D547022DEC69600CD5090 /* UIAlertController+HuAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D546B22DEC69600CD5090 /* UIAlertController+HuAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		631D545422DEC56900CD5090 /* CL_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CL_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631D545822DEC56900CD5090 /* CL_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CL_CategoryUITests.m; sourceTree = "<group>"; };
 		631D545A22DEC56900CD5090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631D546822DEC69600CD5090 /* UIAlertController+HuAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+HuAlert.h"; sourceTree = "<group>"; };
+		631D546922DEC69600CD5090 /* NSArray+Wgarray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Wgarray.m"; sourceTree = "<group>"; };
+		631D546A22DEC69600CD5090 /* NSString+HUString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HUString.m"; sourceTree = "<group>"; };
+		631D546B22DEC69600CD5090 /* UIAlertController+HuAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+HuAlert.m"; sourceTree = "<group>"; };
+		631D546C22DEC69600CD5090 /* NSString+HUString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HUString.h"; sourceTree = "<group>"; };
+		631D546D22DEC69600CD5090 /* NSArray+Wgarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Wgarray.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		631D543322DEC56700CD5090 /* CL_Category */ = {
 			isa = PBXGroup;
 			children = (
+				631D546722DEC69600CD5090 /* Category */,
 				631D543422DEC56700CD5090 /* AppDelegate.h */,
 				631D543522DEC56700CD5090 /* AppDelegate.m */,
 				631D543722DEC56700CD5090 /* ViewController.h */,
@@ -130,6 +140,19 @@
 				631D545A22DEC56900CD5090 /* Info.plist */,
 			);
 			path = CL_CategoryUITests;
+			sourceTree = "<group>";
+		};
+		631D546722DEC69600CD5090 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				631D546822DEC69600CD5090 /* UIAlertController+HuAlert.h */,
+				631D546922DEC69600CD5090 /* NSArray+Wgarray.m */,
+				631D546A22DEC69600CD5090 /* NSString+HUString.m */,
+				631D546B22DEC69600CD5090 /* UIAlertController+HuAlert.m */,
+				631D546C22DEC69600CD5090 /* NSString+HUString.h */,
+				631D546D22DEC69600CD5090 /* NSArray+Wgarray.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631D547022DEC69600CD5090 /* UIAlertController+HuAlert.m in Sources */,
+				631D546E22DEC69600CD5090 /* NSArray+Wgarray.m in Sources */,
 				631D543922DEC56700CD5090 /* ViewController.m in Sources */,
 				631D544422DEC56800CD5090 /* main.m in Sources */,
 				631D543622DEC56700CD5090 /* AppDelegate.m in Sources */,
+				631D546F22DEC69600CD5090 /* NSString+HUString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
